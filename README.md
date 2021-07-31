@@ -13,6 +13,7 @@ bash <(curl -s https://gitlab.com/fortune-public/scripts/scripts/git-tag.sh --mi
 ```
 
 ## TO-DO
+* ENABLE branch protection for main or master
 * Flash out the gitlab-terraform-init.sh script 
 
 ## Version History
