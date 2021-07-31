@@ -6,13 +6,14 @@ Compilation of scripts and utilities that are meant to be reused by other projec
 * git-tag.sh
     * Script used to increment the tag of your repo
 ```
-bash <(curl -s https://gitlab.com/fortune-public/scripts/scripts/git-tag.sh --major)
-bash <(curl -s https://gitlab.com/fortune-public/scripts/scripts/git-tag.sh --minor)
-bash <(curl -s https://gitlab.com/fortune-public/scripts/scripts/git-tag.sh --bug)
-bash <(curl -s https://gitlab.com/fortune-public/scripts/scripts/git-tag.sh --minor --bug)
+bash <(curl -s https://raw.githubusercontent.com/FortunexFortune/scripts/v0.2.1/git-tag.sh --major)
+bash <(curl -s https://raw.githubusercontent.com/FortunexFortune/scripts/v0.2.1/git-tag.sh --minor)
+bash <(curl -s https://raw.githubusercontent.com/FortunexFortune/scripts/v0.2.1/git-tag.sh --bug)
+bash <(curl -s https://raw.githubusercontent.com/FortunexFortune/scripts/v0.2.1/git-tag.sh --minor --bug)
 ```
 
 ## TO-DO
+* Figure out how to execute raw bash script from URLs with parameters 
 * ENABLE branch protection for main or master
 * Flash out the gitlab-terraform-init.sh script 
 
