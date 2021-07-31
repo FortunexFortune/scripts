@@ -10,6 +10,9 @@ bash <(curl -s https://raw.githubusercontent.com/FortunexFortune/scripts/v0.2.1/
 bash <(curl -s https://raw.githubusercontent.com/FortunexFortune/scripts/v0.2.1/git-tag.sh --minor)
 bash <(curl -s https://raw.githubusercontent.com/FortunexFortune/scripts/v0.2.1/git-tag.sh --bug)
 bash <(curl -s https://raw.githubusercontent.com/FortunexFortune/scripts/v0.2.1/git-tag.sh --minor --bug)
+
+curl -s http://server/path/script.sh | bash -s arg1 arg2
+
 ```
 
 ## TO-DO
